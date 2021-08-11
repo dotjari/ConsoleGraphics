@@ -14,11 +14,13 @@ Example (I dont know if this wil work on Visual C++):
 
 void display()
 {
+//	Arguments: X (int), Y (int), Radius (int), Color (See PolyDraw.h);
 	drawcircle(20,20,10,BG_PINK);
 }
 
 int main()
 {
+//	Arguments: Display Function (void), Pixel Size (int)
 	Window(display, 4);
 	return 0;
 }
