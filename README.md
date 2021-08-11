@@ -6,7 +6,6 @@ To compile just use G++ like this:
 ```
 g++ main.cpp -o main.exe -lwinmm
 ```
-################################################
 Example:
 
 ```cpp
@@ -25,7 +24,6 @@ int main()
 }
 
 ```
-################################################
 If for some reason you want to see the cmd color palette, just do this:
 ```cpp
 #include <engine/PolyMain.cpp>
