@@ -41,4 +41,4 @@ int main()
 }
 
 ```
-By the way, drawing the color palette can be quite slow as all the code is based on a lot of drawpixel(), at the time I would fix that by creating a Sprite system but then I saw that it was a bit of a futile effort, already that porting this lib to OS other than Windows could be quite tricky, and running this lib is quite slow.
+By the way, drawing the color palette can be quite slow as all the code is based on a lot of drawpixel(), at the time I would fix that by creating a Sprite system but then I saw that it was a bit of a futile effort, because porting this lib to other OS than Windows could be complex, and running this lib is quite slow.
