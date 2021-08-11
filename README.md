@@ -21,7 +21,26 @@ void display()
 int main()
 {
 	Window(display, 4);
+	return 0;
 }
 
 ```
 ################################################
+If for some reason you want to see the cmd color palette, just do this:
+```cpp
+#include <engine/PolyMain.cpp>
+#include <engine/Pallete.cpp>
+
+void display()
+{
+	drawpallette(0, 0);
+}
+
+int main()
+{
+	Window(display, 4);
+	return 0;
+}
+
+```
+By the way, drawing the color palette can be quite slow as all the code is based on a lot of drawpixel(), at the time I would fix that by creating a Sprite system but then I saw that it was a bit of a futile effort, already that porting this lib to OS other than Windows could be quite tricky, and running this lib is quite slow.
