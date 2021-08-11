@@ -6,7 +6,7 @@ To compile just use G++ like this:
 ```
 g++ main.cpp -o main.exe -lwinmm
 ```
-Example:
+Example (I dont know if this wil work on Visual C++):
 
 ```cpp
 #include <engine/PolyMain.cpp>
