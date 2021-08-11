@@ -15,7 +15,6 @@
 #include <vector>
 #include "PolyDraw.cpp"
 #include "PolyWindow.cpp"
-#include "PolySprite.cpp"
 #include "PolyUtils.h"
 
 #include <chrono>
