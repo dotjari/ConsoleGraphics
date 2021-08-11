@@ -1,6 +1,6 @@
 # ConsoleGraphics
 A library I made between February and June 2021 for graphics in Microsoft Windows command prompt.
-The code might be bad because the Windows API is low level and I've robed a lot of the StackOverflow code, LOL.
+The code might be bad because the Windows API is low level and I've copied a lot of the StackOverflow code, LOL.
 
 To compile just use G++ like this:
 ```
